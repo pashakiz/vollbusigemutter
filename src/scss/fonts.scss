@@ -1,0 +1,44 @@
+/* font-family: "Misto"; */
+/* font-family: "SofiaPro"; */
+
+@font-face {
+    font-family: "Misto";
+    src: url("../fonts/Misto/Misto.eot");
+    src: url("../fonts/Misto/Misto.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Misto/Misto.woff") format("woff"),
+    url("../fonts/Misto/Misto.ttf") format("tuetype"),
+    url("../fonts/Misto/Misto.svg#Misto") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SofiaPro"; /*Light*/
+    src: url("../fonts/SofiaPro/SofiaPro-Light.eot");
+    src: url("../fonts/SofiaPro/SofiaPro-Light.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SofiaPro/SofiaPro-Light.woff") format("woff"),
+    url("../fonts/SofiaPro/SofiaPro-Light.ttf") format("truetype"),
+    url("../fonts/SofiaPro/SofiaPro-Light.svg#SofiaPro-Light") format("svg");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "SofiaPro"; /*Regular*/
+    src: url("../fonts/SofiaPro/SofiaPro-Regular.eot");
+    src: url("../fonts/SofiaPro/SofiaPro-Regular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SofiaPro/SofiaPro-Regular.woff") format("woff"),
+    url("../fonts/SofiaPro/SofiaPro-Regular.ttf") format("truetype"),
+    url("../fonts/SofiaPro/SofiaPro-Regular.svg#SofiaPro-Regular") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "SofiaPro"; /*Bold*/
+    src: url("../fonts/SofiaPro/SofiaPro-Bold.eot");
+    src: url("../fonts/SofiaPro/SofiaPro-Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SofiaPro/SofiaPro-Bold.woff") format("woff"),
+    url("../fonts/SofiaPro/SofiaPro-Bold.ttf") format("truetype"),
+    url("../fonts/SofiaPro/SofiaPro-Bold.svg#SofiaPro-Bold") format("svg");
+    font-style: normal;
+    font-weight: 700;
+}
