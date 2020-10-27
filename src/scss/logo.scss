@@ -1,0 +1,55 @@
+.logo {
+  display: flex;
+  flex-direction: row;
+  .logo__img {
+    width: 30px;
+    height: 26px;
+    background-image: url('../img/icons/logo.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-right: 13px;
+    @media (min-width: 992px) {
+      width: 46px;
+      height: 40px;
+      margin-right: 24px;
+    }
+  }
+  .logo__txt {
+    color: $font_color;
+    font-family: $font_family;
+    font-weight: 700;
+    font-size: 19px;
+    @media (min-width: 992px) {
+      font-size: 28px;
+    }
+  }
+}
+
+.logo_main {
+  flex-direction: column;
+  @media (min-width: 1200px) {
+    flex-direction: row;
+  }
+  .logo__img {
+    width: 39px;
+    height: 34px;
+    margin: 0 auto 14px;
+    @media (min-width: 992px) {
+      width: 46px;
+      height: 40px;
+    }
+    @media (min-width: 1200px) {
+      margin: 0 24px 0 0;
+    }
+  }
+  .logo__txt {
+    color: $body_bg_color;
+    font-size: 22px;
+    @media (min-width: 992px) {
+      font-size: 28px;
+    }
+    @media (min-width: 1200px) {
+      color: $font_color;
+    }
+  }
+}

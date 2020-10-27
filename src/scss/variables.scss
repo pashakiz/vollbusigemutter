@@ -1,0 +1,140 @@
+$container-xxl:             1320px;
+$container-xxxl:            1320px;
+$body_bg_color:             #F4F0EC;
+$logo_main_color:           #EFA4B8;
+$btn_bg_color:              #EFA4B8;
+$btn_hover_bg_color:        #F985A4;
+/**/$btn2_bg_color:             #E9E0D3;
+/**/$btn2_hover_bg_color:       #FF445A;
+$bg_dark_1:                 #264844;
+$bg_light_1:                #EFE7E7;
+$bg_light_2:                #E8E2DC;
+$font_color:                #264844;
+$font_color2:               #272727;
+$font_family:               "SofiaPro", sans-serif;
+$font_weight:               300;
+$font_size:                 19px;
+$font_size_mobile:          16px;
+$body_mb:                   150px;
+$body_mb_mob:               90px;
+$font_family2:              "RaisonnePro", serif;
+$link_txt_family:           $font_family2;
+$link_color:                $font_color;
+$link_hover_color:          #319E91;
+$link2_color:               $body_bg_color;
+$link2_hover_color:         $link_hover_color;
+$link3_color:               $body_bg_color;
+$link3_hover_color:         $btn_bg_color;
+$footer_height:             103px;
+$footer_height_mob:         236px;
+$footer_text_color:         $body_bg_color;
+$footer_text_color_hover:   $link_hover_color;
+
+//Form
+$input_bg:                  $body_bg_color;
+$input_hover_bg:            $input_bg;
+$input_txt_family:          $font_family;
+$input_txt_color:           #4F6A65;
+$input_hover_txt_color:     $font_color;
+$input_placeholder_color:   $input_txt_color;
+$input_txt_xs_size:         16px;
+$input_txt_xs_lh:           1.5;
+$input_txt_size:            22px;
+$input_txt_lh:              1.5;
+$input_border:              none;
+$input_hover_border:        none;
+$input_border_radius:       50px;
+$textarea_border_radius:    27px;
+
+//Custom Checkbox
+/**/$checkbox_xs_padding_left:      45px;
+/**/$checkbox_xs_width:             24px;
+/**/$checkbox_xs_height:            24px;
+/**/$checkbox_xs_left:              -45px;
+/**/$checkbox_xs_top:               -2px;
+
+/**/$checkbox_padding_left:         58px;
+/**/$checkbox_width:                31px;
+/**/$checkbox_height:               31px;
+/**/$checkbox_left:                 -58px;
+/**/$checkbox_top:                  2px;
+
+/**/$checkbox_txt_family:           $font_family;
+/**/$checkbox_txt_color:            $input_txt_color;
+/**/$checkbox_txt_xs_size:          16px;
+/**/$checkbox_txt_size:             21px;
+/**/$checkbox_txt_xs_lh:            32px;
+/**/$checkbox_txt_lh:               36px;
+/**/$checkbox_bg_color:             $body_bg_color;
+/**/$checkbox_checked_bg_color:     $checkbox_bg_color;
+/**/$checkbox_border:               1px solid #CFC9C0;
+/**/$checkbox_checked_border_color: #F2CFCF;
+/**/$checkbox_active_bg_color:      #F2CFCF;
+/**/$checkbox_bg_icon:              "data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 64 64' enable-background='new 0 0 64 64' xml:space='preserve'%3E%3Cg%3E%3Cpath fill='%23FF445A' d='M23.5,54.9c0,0-0.1,0-0.1,0c-1.4,0-2.8-0.6-3.7-1.7l-18.3-20c-1.9-2.1-1.8-5.4,0.3-7.4 c2.1-2,5.4-1.8,7.4,0.3l14.6,16l31.4-31.4c2-2,5.3-2,7.4,0c2,2,2,5.3,0,7.4L27.2,53.4C26.2,54.3,24.9,54.9,23.5,54.9z'/%3E%3C/g%3E%3C/svg%3E%0A";
+
+//Custom RadioButton
+$radio_xs_width:             28px;
+$radio_xs_height:            25px;
+$radio_xs_marker_width:      14px;
+$radio_xs_marker_height:     13px;
+$radio_xs_left:              -$radio_xs_width - 16px;
+$radio_xs_top:               -2px;
+$radio_xs_marker_left:       -37px;
+$radio_xs_marker_top:        4px;
+$radio_xs_padding_left:      $radio_xs_width + 16px;
+
+$radio_width:                36px;
+$radio_height:               33px;
+$radio_marker_width:         18px;
+$radio_marker_height:        17px;
+$radio_left:                 -58px;
+$radio_top:                  2px;
+$radio_marker_left:          -49px;
+$radio_marker_top:           10px;
+$radio_padding_left:         $radio_width + 19px;
+
+$radio_txt_family:           $font_family;
+$radio_txt_color:            $font_color;
+$radio_txt_xs_size:          15px;
+$radio_txt_size:             19px;
+$radio_txt_xs_lh:            1;
+$radio_txt_lh:               1;
+$radio_bg_color:             $input_bg;
+$radio_checked_bg_color:     $radio_bg_color;
+$radio_border:               none !important;
+$radio_hover_border:         none !important;
+$radio_checked_border_color: $radio_bg_color;
+$radio_active_bg_color:      $radio_bg_color;
+$radio_bg_icon:              "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='4' fill='%23FF445A'/%3E%3C/svg%3E";
+
+//Custom Switch
+$switch_bg_width: 77px;
+$switch_bg_height: 25px;
+$switch_bg_width_mob: 59px;
+$switch_bg_height_mob: 19px;
+$switch_dot_size_w: 40px;
+$switch_dot_size_h: 31px;
+$switch_dot_size_w_mob: 30px;
+$switch_dot_size_h_mob: 25px;
+$switch_bg_color: #EBE6E1;
+$switch_bg_color_active: $switch_bg_color;
+$switch_bg_color_checked: $switch_bg_color;
+$switch_dot_color: #DFE2E0;
+$switch_dot_color_active: $btn_bg_color;
+$switch_border: none;
+$switch_border_active: none;
+$switch_txt: '';
+$switch_txt_color: $font_color;
+$switch_txt_color_checked: $font_color;
+$switch_margin_right: 43px;
+$switch_margin_right_mob: 24px;
+
+//Bootstrap container width
+@function get-container-width($key: 'md') {
+  @return map-get($container-max-widths, $key);
+}
+
+//User List page wider
+$user_list_wider:           160px;/**/
+$user_list_item_breakpoint: 992px;
+$user_list_title_color:     $font_color2;

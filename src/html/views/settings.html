@@ -1,0 +1,74 @@
+<%= _.template(require('./../includes/header-wave2.html'))() %>
+    <main class="main main_wave">
+        <div class="container">
+            <form action="">
+                <div class="row">
+                    <div class="col-12 col-xl-6">
+                        <div class="settings-photo">
+                            <div class="form-group">
+                                <div class="profile-photo">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="customFile">
+                                        <label class="custom-file-area d-flex align-items-center justify-content-center" for="customFile">
+                                            <span class="link2 text-center">Change Photo</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group form-group_setlink text-center d-none d-xl-block">
+                                <a href="#" class="link1">Sign Out</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <div class="settings-form">
+                            <div class="form-group form-group_input">
+                                <input class="form-control" type="text" placeholder="Full Name">
+                            </div>
+                            <div class="form-group form-group_check d-xxl-none">
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="customRadioInline1mob" name="customRadioInline1mob" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1mob">Male</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="customRadioInline2mob" name="customRadioInline1mob" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline2mob">Female</label>
+                                </div>
+                            </div>
+                            <div class="form-group form-group_input">
+                                <input class="form-control" type="text" placeholder="Age">
+                            </div>
+                            <div class="form-group form-group_input">
+                                <textarea class="form-control" placeholder="About"></textarea>
+                            </div>
+                            <div class="form-check-area form-group form-group_check">
+                                <div class="form-check-area__item radio">
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadioInline1">Male</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadioInline2">Female</label>
+                                    </div>
+                                </div>
+                                <div class="form-check-area__item">
+                                    <div class="custom-control custom-switch custom-switch_inline custom-switch_color2">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                        <label class="custom-control-label" for="customSwitch1">Notify me of site updates</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group form-group_settings-btn">
+                                <button class="btn btn_w100">Save Preferences</button>
+                            </div>
+                            <div class="form-group form-group_setlink text-center d-xl-none">
+                                <a href="#" class="link1">Sign Out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+<%= _.template(require('./../includes/footer.html'))() %>
