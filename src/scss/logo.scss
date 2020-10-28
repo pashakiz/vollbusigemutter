@@ -1,55 +1,43 @@
 .logo {
-  display: flex;
-  flex-direction: row;
-  .logo__img {
-    width: 30px;
-    height: 26px;
-    background-image: url('../img/icons/logo.svg');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    margin-right: 13px;
-    @media (min-width: 992px) {
-      width: 46px;
-      height: 40px;
-      margin-right: 24px;
-    }
-  }
-  .logo__txt {
-    color: $font_color;
-    font-family: $font_family;
-    font-weight: 700;
-    font-size: 19px;
-    @media (min-width: 992px) {
-      font-size: 28px;
-    }
+  width: 46px;
+  height: 46px;
+  background-image: url('../img/icons/logo.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  @media (min-width: 992px) {
+    width: 102px;
+    height: 102px;
   }
 }
 
 .logo_main {
-  flex-direction: column;
+  width: 144px;
+  height: 144px;
+  margin: 0 auto 50px;
+  background-image: url('../img/icons/logo-white.svg');
+  @media (min-width: 992px) {
+    background-image: url('../img/icons/logo.svg');
+    width: 312px;
+    height: 312px;
+    margin: 0 140px 0 0;
+  }
   @media (min-width: 1200px) {
-    flex-direction: row;
+    margin: 0 141px 0 0;
   }
-  .logo__img {
-    width: 39px;
-    height: 34px;
-    margin: 0 auto 14px;
-    @media (min-width: 992px) {
-      width: 46px;
-      height: 40px;
-    }
-    @media (min-width: 1200px) {
-      margin: 0 24px 0 0;
-    }
+}
+
+.logo_login {
+  width: 89px;
+  height: 89px;
+  margin: 0 auto 41px;
+  background-image: url('../img/icons/logo-white.svg');
+  @media (min-width: 992px) {
+    background-image: url('../img/icons/logo.svg');
+    width: 175px;
+    height: 175px;
+    margin: 0 135px 0 0;
   }
-  .logo__txt {
-    color: $body_bg_color;
-    font-size: 22px;
-    @media (min-width: 992px) {
-      font-size: 28px;
-    }
-    @media (min-width: 1200px) {
-      color: $font_color;
-    }
+  @media (min-width: 1200px) {
+    margin: 0 135px 0 0;
   }
 }
