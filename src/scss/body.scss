@@ -27,6 +27,11 @@ body {
       padding-top: 55px;
     }
   }
+  &.container_settings {
+    @media (min-width: 1200px) {
+      padding-top: 37px;
+    }
+  }
   &.container_wide {
     @media (min-width: 1200px) {
       //max-width: 1615px;
@@ -277,7 +282,7 @@ a {
 }
 .link1 {
   font-family: $link_txt_family;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 16px;
   @media (min-width: 768px) {
     font-size: 25px;
@@ -286,15 +291,16 @@ a {
 .link2 {
   font-family: $font_family2;
   color: $link2_color;
-  font-weight: 700;
-  font-size: 19px;
-  line-height: 39px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
   &:hover {
-    color: $link2_hover_color;
+    //color: $link2_hover_color;
+    opacity: 0.7;
   }
   @media (min-width: 768px) {
-    font-size: 25px;
-    line-height: 46px;
+    font-size: 36px;
+    line-height: 58px;
   }
 }
 .link3 {
