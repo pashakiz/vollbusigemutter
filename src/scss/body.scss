@@ -52,8 +52,8 @@ body {
     }
   }
   &.container_unsubsribe {
-    @media (min-width: 992px) {
-      max-width: 700px;
+    @media (min-width: 1920px) {
+      max-width: 1322px;
     }
   }
 }
@@ -176,8 +176,8 @@ h2 {
     margin-top: 0;
   }
   @media (min-width: 1200px) {
-    font-size: 70px;
-    line-height: 58px;
+    font-size: 82px;
+    line-height: 120px;
     margin-bottom: 0;
   }
   @media (min-width: 1920px) {
@@ -227,6 +227,14 @@ h2 {
       line-height: 174px;
       position: relative;
       margin-top: -45px;
+    }
+  }
+  &.h2_unsubscribe {
+    @media (min-width: 1200px) {
+      max-width: 315px;
+    }
+    @media (min-width: 1920px) {
+      max-width: 383px;
     }
   }
 }

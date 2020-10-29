@@ -108,26 +108,28 @@ $input_hover_bg:            #fff;
 /**/$radio_bg_icon:              "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='4' fill='%23FF445A'/%3E%3C/svg%3E";
 
 //Custom Switch
-/**/$switch_bg_width: 77px;
-/**/$switch_bg_height: 25px;
-/**/$switch_bg_width_mob: 59px;
-/**/$switch_bg_height_mob: 19px;
-/**/$switch_dot_size_w: 40px;
-/**/$switch_dot_size_h: 31px;
-/**/$switch_dot_size_w_mob: 30px;
-/**/$switch_dot_size_h_mob: 25px;
-/**/$switch_bg_color: #EBE6E1;
-/**/$switch_bg_color_active: $switch_bg_color;
-/**/$switch_bg_color_checked: $switch_bg_color;
-/**/$switch_dot_color: #DFE2E0;
-/**/$switch_dot_color_active: $btn_bg_color;
-/**/$switch_border: none;
-/**/$switch_border_active: none;
-/**/$switch_txt: '';
-/**/$switch_txt_color: $font_color;
-/**/$switch_txt_color_checked: $font_color;
-/**/$switch_margin_right: 43px;
-/**/$switch_margin_right_mob: 24px;
+$switch_bg_width: 115px;
+$switch_bg_height: 48px;
+$switch_bg_width_mob: 76px;
+$switch_bg_height_mob: 32px;
+$switch_bg_border_radius: 0;
+$switch_dot_size_w: 28px;
+$switch_dot_size_h: 28px;
+$switch_dot_size_w_mob: 18px;
+$switch_dot_size_h_mob: 18px;
+$switch_dot_border_radius: 0;
+$switch_bg_color: $bg_light_1;
+$switch_bg_color_active: $switch_bg_color;
+$switch_bg_color_checked: $switch_bg_color;
+$switch_dot_color: $body_bg_color;
+$switch_dot_color_active: $btn_bg_color;
+$switch_border: none;
+$switch_border_active: none;
+$switch_txt: '';
+$switch_txt_color: $font_color;
+$switch_txt_color_checked: $font_color;
+$switch_margin_right: 59px;
+$switch_margin_right_mob: 29px;
 
 //Bootstrap container width
 @function get-container-width($key: 'md') {
