@@ -631,3 +631,13 @@ textarea.form-control {
   }
 }
 
+@media (min-width: 1920px) {
+  .col-xxxl-45 {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+  .col-xxxl-55 {
+    flex: 0 0 55%;
+    max-width: 55%;
+  }
+}

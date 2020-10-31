@@ -59,7 +59,34 @@ $(function() {
             }
         });
 
+        //slider (user_list extra) for mobile only
+        owlUserListExtraInit();
+
     });
 
+    function owlUserListExtraInit() {
+        if (window.innerWidth < 1200) {
+            document.querySelector('.user-list-extra').classList.add('owl-carousel');
+            $('.owl-carousel.user-list-extra').owlCarousel({
+                loop: true,
+                dots: true,
+                items: 2,
+                margin: 22,
+                autoWidth: true,
+                responsive:{
+                    768:{
+                        items: 4
+                    }
+                }
+            });
+        } else {
+            $('.owl-carousel.user-list-extra').owlCarousel('destroy');
+            document.querySelector('.user-list-extra').classList.remove('owl-carousel');
+        }
+    }
+
+    $(window).resize(function() {
+        owlUserListExtraInit();
+    });
 
 });
