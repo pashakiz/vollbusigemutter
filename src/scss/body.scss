@@ -310,17 +310,10 @@ a {
 .link3 {
   font-family: $font_family;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 17px;
   color: $link3_color;
   &:hover {
     color: $link3_hover_color;
-  }
-  @media (min-width: 1200px) {
-    font-size: 20px;
-    color: #3A5954;
-    &:hover {
-      color: $link3_hover_color;
-    }
   }
 }
 .preloader {
