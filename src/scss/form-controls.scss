@@ -199,7 +199,7 @@ textarea.form-control {
     color: $checkbox_txt_color;
     font-family: $checkbox_txt_family;
     font-weight: 200;
-    line-height: 20px;
+    line-height: $checkbox_txt_xs_lh;
     font-size: $checkbox_txt_xs_size;
     cursor: pointer;
     &::before {
@@ -615,7 +615,7 @@ textarea.form-control {
   }
   &.btn_3 {
     width: 100%;
-    padding: 15px 35px 14px;
+    padding: 16px 35px 14px;
     font-size: 17px;
     @media (min-width: 768px) {
       height: 52px;
