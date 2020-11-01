@@ -53,33 +53,31 @@ body textarea:required:valid {
   }
   &.form-control_header {
     border: none;
-    color: #4B6661;
-    padding: 17px 27px;
-    background-color: rgba(244,240,236,0.88);
+    font-size: 17px;
+    color: rgba(0,0,0,0.51);
+    padding: 15px 20px;
+    background-color: rgba(255,243,228,0.8);
     text-align: center;
     &:hover {
-      background-color: $bg_light_2;
-      color: $font_color;
+      background-color: $bg_light_1;
+      color: $font_color2;
     }
     &:focus {
       box-shadow: none;
-      background-color: $bg_light_2;
-      color: $font_color;
+      background-color: $bg_light_1;
+      color: $font_color2;
     }
-    @media (min-width: 768px) {
-      padding: 25px 42px;
-      font-size: 22px;
+    @media (min-width: 992px) {
+      background-color: #fff;
+      color: $input_txt_color;
     }
     @media (min-width: 1200px) {
-      background-color: $bg_light_2;
-      border: $input_border;
-      padding: 25px 42px;
-      font-size: 22px;
-      line-height: 39px;
+      padding: 30px 40px;
+      font-size: 25px;
     }
     @media (min-width: 1500px) {
-      padding: 30px 44px;
-      font-size: 22px;
+      padding: 30px 40px;
+      font-size: 25px;
     }
   }
 }
@@ -133,20 +131,24 @@ textarea.form-control {
   }
 }
 .form-group_login {
-  margin-bottom: 13px;
-  @media (min-width: 1200px) {
-    margin-top: 20px;
+  margin-bottom: 10px;
+  @media (min-width: 992px) {
+    margin-bottom: 0;
+    width: 32%;
   }
-  @media (min-width: 1500px) {
-    margin-top: 32px;
+  @media (min-width: 1920px) {
+    width: 470px;
+  }
+}
+.form-group_login-btn {
+  @media (min-width: 1920px) {
+    width: 559px;
+    margin-left: 4px;
   }
 }
 .form-group_up-login {
-  margin-top: 18px;
+  margin-top: 21px;
   margin-bottom: 0;
-  @media (min-width: 1500px) {
-    margin-top: 34px;
-  }
 }
 .form-group_input {
   margin-bottom: 21px;
@@ -583,15 +585,16 @@ textarea.form-control {
     height: 93px;
   }
   &.btn_1 {
-    @media (min-width: 992px) {
-      font-size: 20px;
-      padding: 20px 21px;
-      height: 62px;
+    height: 52px;
+    font-size: 17px;
+    padding: 15px 20px 14px;
+    @media (min-width: 1200px) {
+      height: 93px;
+      font-size: 37px;
+      padding: 15px 20px 14px;
     }
     @media (min-width: 1500px) {
-      font-size: 28px;
-      padding: 31px 40px;
-      height: 91px;
+      height: 93px;
     }
   }
   &.btn_2 {

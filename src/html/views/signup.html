@@ -1,62 +1,52 @@
 <%= _.template(require('./../includes/header-login.html'))() %>
-    <header class="header bg-05">
-        <div class="header__firstscreen">
-            <div class="container">
-                <div class="firstscreen-row d-flex">
-                    <div class="firstscreen-inf">
-                        <div class="header__row header__row_login header_page">
-                            <div class="d-flex justify-content-center justify-content-xl-between align-items-center">
-                                <div class="logo logo_main mr-xl-auto">
-                                    <div class="logo__img"></div>
-                                    <div class="logo__txt">Vollbusige Mutter</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="header__info">
-                            <div class="header__info-inner">
-                                <h1 class="h1_login">Signup&nbsp;access<br>your&nbsp;matches</h1>
-                                <div class="header__form login">
-                                    <form action="">
-                                        <div class="form-group form-group_login">
-                                            <input class="form-control form-control_header" type="text" placeholder="Email">
-                                        </div>
-                                        <div class="form-group form-group_login">
-                                            <input class="form-control form-control_header" type="password" placeholder="Password">
-                                        </div>
-                                        <div class="form-group form-group_login">
-                                            <button class="btn btn_1 btn_w100">Sign Up</button>
-                                        </div>
-                                        <div class="form-group form-group_up-login text-center">
-                                            <a class="link3" href="login.html">Or Log In?</a>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
+    <header class="header header_bg bg-02">
+        <div class="container">
+            <div class="header__row header__row_login">
+                <div class="d-flex flex-column flex-lg-row justify-content-start align-items-center">
+                    <div class="logo logo_login"></div>
+                    <div class="header__info">
+                        <h1 class="h1_login">Geben Sie Ihr Profil</h1>
                     </div>
-                    <div class="firstscreen-img">
-                        <div class="firstscreen-photo"></div>
-                    </div>
+                </div>
+            </div>
+            <div class="header__row header__row_form">
+                <div class="header__form login">
+                    <form action="" class="d-flex flex-column flex-lg-row justify-content-lg-between">
+                        <div class="form-group form-group_login">
+                            <input class="form-control form-control_header" type="text" placeholder="Email">
+                        </div>
+                        <div class="form-group form-group_login">
+                            <input class="form-control form-control_header" type="password" placeholder="Passwort">
+                        </div>
+                        <div class="form-group form-group_login form-group_login-btn">
+                            <button class="btn btn_1 btn_w100">Anmeldung</button>
+                        </div>
+                        <div class="form-group form-group_up-login text-center d-lg-none">
+                            <a class="link3" href="login.html">Oder Anmelden?</a>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </header>
+    <section class="collage d-none d-lg-block">
+        <img class="collage__img_lg" src="img/index-collage-lg.jpg" alt="">
+    </section>
     <main class="main">
         <div class="container">
-            <h2 class="h2_login">Meet your dream</h2>
-            <div class="user-list user-list_slider owl-carousel">
+            <h2 class="h2_login">Triff deinen Traum</h2>
+            <div class="user-list user-list_slider">
                 <div class="user-list-item">
                     <div class="user-list-item__pic">
-                        <div class="user-list-item__img" style="background-image: url('img/photos/user-01.jpg');">
-                            <a class="user-list-item__btn btn btn_2" href="#">Claim Her</a>
-                        </div>
+                        <div class="user-list-item__img" style="background-image: url('img/photos/user-01.jpg');"></div>
+                        <a class="user-list-item__btn btn btn_2" href="#">Fordern Sie Sie An</a>
                     </div>
                     <div class="user-list-item__inf">
                         <div class="user-list-item__title">
-                            <div class="user-list-item__name">Elizabeth, 32</div>
-                            <div class="user-list-item__loc">Tokio (5000 km)</div>
+                            <div class="user-list-item__name">Stephanie, 26</div>
+                            <div class="user-list-item__loc">München (3000 km)</div>
                         </div>
-                        <div class="compatibility-title">Compatibility score: 15 000</div>
+                        <div class="compatibility-title">Kompatibilitätsbewertung  15 000</div>
                         <div class="compatibility compatibility_list d-flex justify-content-between">
                             <div class="compatibility__chart">
                                 <div class="compatibility__progress">
@@ -64,7 +54,7 @@
                                         <div class="progress-bar progress-bar_bg" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                                <div class="compatibility__title">Interests</div>
+                                <div class="compatibility__title">Interessen</div>
                             </div>
                             <div class="compatibility__chart">
                                 <div class="compatibility__progress">
@@ -72,7 +62,7 @@
                                         <div class="progress-bar progress-bar_bg" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                                <div class="compatibility__title">Location</div>
+                                <div class="compatibility__title">Ort</div>
                             </div>
                             <div class="compatibility__chart">
                                 <div class="compatibility__progress">
@@ -80,23 +70,22 @@
                                         <div class="progress-bar progress-bar_bg" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                                <div class="compatibility__title">Matches</div>
+                                <div class="compatibility__title">Streichhölzer</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="user-list-item">
                     <div class="user-list-item__pic">
-                        <div class="user-list-item__img" style="background-image: url('img/photos/user-02.jpg');">
-                            <a class="user-list-item__btn btn btn_2" href="#">Claim Her</a>
-                        </div>
+                        <div class="user-list-item__img" style="background-image: url('img/photos/user-02.jpg');"></div>
+                        <a class="user-list-item__btn btn btn_2" href="#">Fordern Sie Sie An</a>
                     </div>
                     <div class="user-list-item__inf">
                         <div class="user-list-item__title">
-                            <div class="user-list-item__name">Elizabeth, 32</div>
-                            <div class="user-list-item__loc">Tokio (5000 km)</div>
+                            <div class="user-list-item__name">Stephanie, 26</div>
+                            <div class="user-list-item__loc">München (3000 km)</div>
                         </div>
-                        <div class="compatibility-title">Compatibility score: 15 000</div>
+                        <div class="compatibility-title">Kompatibilitätsbewertung  15 000</div>
                         <div class="compatibility compatibility_list d-flex justify-content-between">
                             <div class="compatibility__chart">
                                 <div class="compatibility__progress">
@@ -104,7 +93,7 @@
                                         <div class="progress-bar progress-bar_bg" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                                <div class="compatibility__title">Interests</div>
+                                <div class="compatibility__title">Interessen</div>
                             </div>
                             <div class="compatibility__chart">
                                 <div class="compatibility__progress">
@@ -112,7 +101,7 @@
                                         <div class="progress-bar progress-bar_bg" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                                <div class="compatibility__title">Location</div>
+                                <div class="compatibility__title">Ort</div>
                             </div>
                             <div class="compatibility__chart">
                                 <div class="compatibility__progress">
@@ -120,23 +109,22 @@
                                         <div class="progress-bar progress-bar_bg" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                                <div class="compatibility__title">Matches</div>
+                                <div class="compatibility__title">Streichhölzer</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="user-list-item">
                     <div class="user-list-item__pic">
-                        <div class="user-list-item__img" style="background-image: url('img/photos/user-03.jpg');">
-                            <a class="user-list-item__btn btn btn_2" href="#">Claim Her</a>
-                        </div>
+                        <div class="user-list-item__img" style="background-image: url('img/photos/user-03.jpg');"></div>
+                        <a class="user-list-item__btn btn btn_2" href="#">Fordern Sie Sie An</a>
                     </div>
                     <div class="user-list-item__inf">
                         <div class="user-list-item__title">
-                            <div class="user-list-item__name">Elizabeth, 32</div>
-                            <div class="user-list-item__loc">Tokio (5000 km)</div>
+                            <div class="user-list-item__name">Stephanie, 26</div>
+                            <div class="user-list-item__loc">München (3000 km)</div>
                         </div>
-                        <div class="compatibility-title">Compatibility score: 15 000</div>
+                        <div class="compatibility-title">Kompatibilitätsbewertung  15 000</div>
                         <div class="compatibility compatibility_list d-flex justify-content-between">
                             <div class="compatibility__chart">
                                 <div class="compatibility__progress">
@@ -144,7 +132,7 @@
                                         <div class="progress-bar progress-bar_bg" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                                <div class="compatibility__title">Interests</div>
+                                <div class="compatibility__title">Interessen</div>
                             </div>
                             <div class="compatibility__chart">
                                 <div class="compatibility__progress">
@@ -152,7 +140,7 @@
                                         <div class="progress-bar progress-bar_bg" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                                <div class="compatibility__title">Location</div>
+                                <div class="compatibility__title">Ort</div>
                             </div>
                             <div class="compatibility__chart">
                                 <div class="compatibility__progress">
@@ -160,23 +148,22 @@
                                         <div class="progress-bar progress-bar_bg" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                                <div class="compatibility__title">Matches</div>
+                                <div class="compatibility__title">Streichhölzer</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="user-list-item">
                     <div class="user-list-item__pic">
-                        <div class="user-list-item__img" style="background-image: url('img/photos/user-04.jpg');">
-                            <a class="user-list-item__btn btn btn_2" href="#">Claim Her</a>
-                        </div>
+                        <div class="user-list-item__img" style="background-image: url('img/photos/user-04.jpg');"></div>
+                        <a class="user-list-item__btn btn btn_2" href="#">Fordern Sie Sie An</a>
                     </div>
                     <div class="user-list-item__inf">
                         <div class="user-list-item__title">
-                            <div class="user-list-item__name">Elizabeth, 32</div>
-                            <div class="user-list-item__loc">Tokio (5000 km)</div>
+                            <div class="user-list-item__name">Stephanie, 26</div>
+                            <div class="user-list-item__loc">München (3000 km)</div>
                         </div>
-                        <div class="compatibility-title">Compatibility score: 15 000</div>
+                        <div class="compatibility-title">Kompatibilitätsbewertung  15 000</div>
                         <div class="compatibility compatibility_list d-flex justify-content-between">
                             <div class="compatibility__chart">
                                 <div class="compatibility__progress">
@@ -184,7 +171,7 @@
                                         <div class="progress-bar progress-bar_bg" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                                <div class="compatibility__title">Interests</div>
+                                <div class="compatibility__title">Interessen</div>
                             </div>
                             <div class="compatibility__chart">
                                 <div class="compatibility__progress">
@@ -192,7 +179,7 @@
                                         <div class="progress-bar progress-bar_bg" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                                <div class="compatibility__title">Location</div>
+                                <div class="compatibility__title">Ort</div>
                             </div>
                             <div class="compatibility__chart">
                                 <div class="compatibility__progress">
@@ -200,7 +187,7 @@
                                         <div class="progress-bar progress-bar_bg" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                                <div class="compatibility__title">Matches</div>
+                                <div class="compatibility__title">Streichhölzer</div>
                             </div>
                         </div>
                     </div>

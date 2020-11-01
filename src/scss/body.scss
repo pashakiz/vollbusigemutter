@@ -74,33 +74,29 @@ body {
   }
 }
 h1 {
-  font-family: $font_family;
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 49px;
+  font-family: $font_family2;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 41px;
   color: #fff;
-  margin-bottom: 45px;
-  text-align: center;
+  margin-bottom: 30px;
   @media (min-width: 768px) {
     //font-size: 50px;
     //line-height: 65px;
   }
   @media (min-width: 1200px) {
-    color: $link2_color;
-    font-size: 36px;
-    line-height: 60px;
-    margin-bottom: 26px;
-    text-align: left;
+    color: $font_color2;
+    font-size: 79px;
+    line-height: 109px;
+    margin-bottom: 0;
   }
   @media (min-width: 1500px) {
-    font-size: 48px;
-    line-height: 80px;
-    margin-bottom: 38px;
+    font-size: 79px;
+    line-height: 109px;
   }
   @media (min-width: 1920px) {
-    font-size: 48px;
-    line-height: 80px;
-    margin-bottom: 38px;
+    font-size: 79px;
+    line-height: 109px;
   }
   &.h1_index {
     color: $btn_bg_color;
@@ -135,30 +131,27 @@ h1 {
     }
   }
   &.h1_login {
-    font-size: 35px;
-    line-height: 49px;
-    color: $btn_bg_color;
-    margin: 43px 0 29px;
     @media (min-width: 768px) {
-      font-size: 78px;
-      line-height: 103px;
-      margin: 98px 0 60px;
+      font-size: 55px;
+      line-height: 80px;
+      margin-bottom: 50px;
+    }
+    @media (min-width: 992px) {
+      color: $font_color;
+      margin: 0;
     }
     @media (min-width: 1200px) {
-      color: $font_color;
       font-size: 52px;
       line-height: 56px;
-      margin: 50px 0 39px;
+      margin: 0;
     }
     @media (min-width: 1500px) {
       font-size: 68px;
       line-height: 80px;
-      margin: 100px 0 39px;
     }
     @media (min-width: 1920px) {
-      font-size: 78px;
-      line-height: 103px;
-      margin: 135px 0 39px;
+      font-size: 79px;
+      line-height: 109px;
     }
   }
 }
@@ -201,17 +194,17 @@ h2 {
     }
   }
   &.h2_login {
-    font-size: 32px;
-    margin-bottom: 42px;
-    margin-top: 60px;
+    margin-top: 44px;
+    margin-bottom: 37px;
     @media (min-width: 768px) {
-      font-size: 46px;
       margin-bottom: 60px;
     }
+    @media (min-width: 992px) {
+      color: rgba(255, 255, 255, 0.39);
+    }
     @media (min-width: 1200px) {
-      font-size: 70px;
-      margin-bottom: 125px;
-      margin-top: 72px;
+      margin-top: 49px;
+      margin-bottom: 99px;
     }
   }
   &.h2_privacy {
